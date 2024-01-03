@@ -126,6 +126,11 @@
   font-size: 25px;
 }
 
+.faq-bloc__name::after {
+  content: "+";
+  color: #f8f9f7;
+}
+
 .faq-bloc__text {
   padding: 20px 20px;
 }
