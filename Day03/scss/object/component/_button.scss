@@ -1,0 +1,29 @@
+.c-btn {
+    display: flex;
+    flex-wrap: wrap;
+    &__link {
+        a {
+            display: block;
+            text-decoration: none;
+            color: $title-color;
+            margin-left: 280px;
+            margin-top: 15px;
+            font-size: var(--navbar-font-size);
+            font-family: var(--navbar-font-family);
+        }
+    }
+    &--border {
+        a {
+            display: block;
+            border: 1px solid $title-color;
+            padding: 5px 15px;
+            border-radius: 25px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        // a {
+        //     border: none;
+        // }
+    }
+
+}
