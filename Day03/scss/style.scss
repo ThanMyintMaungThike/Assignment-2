@@ -1,12 +1,18 @@
 @import 'foundation/reset';
 @import 'foundation/setting';
 @import 'foundation/base';
+@import 'foundation/font';
 @import 'foundation/normalize';
-@import 'object/component/button';
+
 @import 'layout/layout';
 @import 'layout/header';
 @import 'layout/sidebar';
 @import 'layout/footer';
+@import 'object/component/c-btn';
+@import 'object/component/c-card';
+
 @import 'object/component/title';
-@import 'object/component/card';
-@import 'object/project/page';
+@import 'object/project/banner-text';
+@import 'object/project/gallery';
+@import 'object/project/destination';
+@import 'object/project/mail-box';

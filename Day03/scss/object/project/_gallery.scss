@@ -1,0 +1,30 @@
+.gallery {
+    margin-bottom: 100px;
+    &__circle {
+        width: 75px;
+        height: 75px;
+        background-color: $brandColor;
+        border-radius: 50px;
+        position: relative;
+        margin: auto;
+
+        }
+    &__icon {
+        width: 110px;
+        height: 100px;
+        margin: auto;
+        img {
+            transform: translateY(-100%);
+            position: absolute;
+        }
+    }
+    &__text {
+        width: 460px;
+        height: 80px;
+        font-size: 40px;
+        margin: auto;
+        text-align: center;
+        color: $textBlack;
+        font-family: 'Archivo Black', 'sans-serif';
+    }
+}

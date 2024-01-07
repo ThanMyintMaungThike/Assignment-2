@@ -1,102 +1,343 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel & Find Yourself</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-color">
+<body>
     <header class="l-header">
-        <div class="header-navbar">
-            <div class="header-navbar__logo">
-                <a href="index.html">
-                    <img src="img/logo1.png" alt="logo">
-                </a>
-            </div>
-            <nav class="header-navbar__nav">
-                <ul>
-                    <li><a href="index.html" target="_self">Home</a></li>
-                    <li><a href="index.html" target="_self">Destination</a></li>
-                    <li><a href="index.html" target="_self">Near me</a></li>
-                    <li><a href="index.html" target="_self">Events</a></li>
-                    <li><a href="index.html" target="_self">Blog</a></li>
-                    <li><a href="index.html" target="_self">Gallery</a></li>
-                    <li><a href="index.html" target="_self">About</a></li>
-                    <li><a href="index.html" target="_self">Contact us</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="c-btn">
-            <div class="c-btn__link c-btn--noborder">
-                <a href="index.html" target="_self">Sign up</a>
-            </div>
-            <div class="c-btn__link c-btn--border">
-                <a href="index.html" target="_self">Sign in</a>
+        <div class="l-wrap-inner">
+            <div class="l-header__wrap">
+                <div class="l-header__logo">
+                    <h1>
+                        <a href="#"><img src="img/header/logo1.png" alt="logo"></a>
+                    </h1>
+                    <nav class="l-header__menu">
+                        <ul>
+                            <li><a class="is-active" href="#">Home</a></li>
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Near me</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="l-header__signup">
+                    <div class="c-btn c-btn--signin" ><a href="#">Sign in</a></div>
+                    <div class="c-btn c-btn--border"><a href="#">Sign up</a></div>
+                </div>
             </div>
         </div>
     </header>
-    <section class="l-banner">
-        <div class="l-banner__img">
-            <a href="index.html">
-                <img src="img/BG.png" alt="The night">
-            </a>
-        </div>
-        <div class="l-banner__text">
+    <section class="banner">
+        <div class="banner__text">
             <h2>Find Yourself Outside.</h2>
-            <p>Book unique camping experience on over 300,000 campsites, cabins, RV parks, public parks and more.</p>
-            <div class="c-btn--border l-banner__text__link"><a href="index.html">Discover</a></div>
+            <p>
+                Book unique camping experiences on over 300,000 campsites, cabins, RV parks, public parks more.
+            </p>
+            <div class="c-btn c-btn--discover">
+                <a href="#" target="_self">Discover</a>
+            </div>
         </div>
     </section>
     <main>
-        <section class="inner-width">
-            <div class="c-card">
-                <div class="c-card__card">
-                    <div class="c-card__card__img">
-                        <a href="index.html">
-                            <img src="img/bonfire.png" alt="icon-1">
-                        </a>
-                    </div>
-                    <h3>Camping & Day Use</h3>
-                    <p>Return to your favorite spot or discover a new one that's right for you.</p>
-                </div>
-                <div class="c-card__card">
-                    <div class="c-card__card__img">
-                        <a href="index.html">
-                            <img src="img/tickets.png" alt="icon-1">
-                        </a>
-                    </div>
-                    <h3>Camping & Day Use</h3>
-                    <p>Return to your favorite spot or discover a new one that's right for you.</p>
-                </div>
-                <div class="c-card__card">
-                    <div class="c-card__card__img">
-                        <a href="index.html">
-                            <img src="img/filled outline.png" alt="icon-1">
-                        </a>
-                    </div>
-                    <h3>Camping & Day Use</h3>
-                    <p>Return to your favorite spot or discover a new one that's right for you.</p>
-                </div>
-                <div class="c-card__card">
-                    <div class="c-card__card__img">
-                        <a href="index.html">
-                            <img src="img/fishing.png" alt="icon-1">
-                        </a>
-                    </div>
-                    <h3>Camping & Day Use</h3>
-                    <p>Return to your favorite spot or discover a new one that's right for you.</p>
-                </div>
+        <div class="l-wrap-inner">
 
+            <section class="c-card-bloc">
+                <div class="c-card">
+                    <div class="c-card__inner">
+                        <div class="c-card__img">
+                            <a href="#" target="_self">
+                                <img src="img/card/bonfire.png" alt="burn-fire">
+                            </a>
+                        </div>
+                        <div class="c-card__txt">
+                            <h3>Camping & Day Use</h3>
+                            <p>Return to your favorite, discover a new one for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <div class="c-card__inner">
+                        <div class="c-card__img">
+                            <a href="#" target="_self">
+                                <img src="img/card/tickets.png" alt="burn-fire">
+                            </a>
+                        </div>
+                        <div class="c-card__txt">
+                            <h3>Tours & Tickets</h3>
+                            <p>Return to your favorite spot or discover a new one for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <div class="c-card__inner">
+                        <div class="c-card__img">
+                            <a href="#" target="_self">
+                                <img src="img/card/filled outline.png" alt="burn-fire">
+                            </a>
+                        </div>
+                        <div class="c-card__txt">
+                            <h3>Permits</h3>
+                            <p>Return to your favorite spot or discover a new for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <div class="c-card__inner">
+                        <div class="c-card__img">
+                            <a href="#" target="_self">
+                                <img src="img/card/fishing.png" alt="burn-fire">
+                            </a>
+                        </div>
+                        <div class="c-card__txt">
+                            <h3>Fishing</h3>
+                            <p>Return to your favorite or discover a new one for you.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            </div>
-        </section>
+            <section class="gallery">
+                <div class="gallery__title">
+                    <div class="gallery__circle"></div>
+                    <div class="gallery__icon">
+                        <a href="#" target="_self"><img src="img/destination/destination.png" alt="destination"></a>
+                    </div>
+                    <div class="gallery__text">
+                        <h1>Explore Destinations & Activities</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="destination">
+                <div class="all-card">
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-1.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+    
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-2.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+    
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-3.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+    
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-4.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-5.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-6.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-7.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-8.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-9.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-10.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-11.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-card c-card--sizeup">
+                        <div class="c-card__inner">
+                            <div class="c-card__img c-card__modify">
+                                <a href="#" target="_self">
+                                    <img src="img/destination/zach-betten-K-12.png" alt="burn-fire">
+                                </a>
+                                <div class="c-card__modify--price">36$/night</div>
+                                <div class="c-card__modify--like-bg"></div>
+                                <div class="c-card__modify--heart"></div>
+                            </div>
+                            <div class="c-card__txt c-card__txt--modify">
+                                <h3>Camping & Day Use</h3>
+                                <p>Return to your favorite, discover a new one for you.</p>
+                                <a href="#" target="_self">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination__buttom"><a href="#">View All</a></div>
+            </section>
+            <section class="stay-contact">
+                <div class="email">
+                    <div class="mail-box">
+                        <div class="mail-box__text">
+                            <h1>Let's stay in touch</h1>
+                            <p>Get travel plannig ideas, helpful tips, and stories from our visitors delivered right to your inbox.</p>
+                            <input type="email" name="email" placeholder="Email Address">
+                        </div>
+                        <div class="mail-box__photo">
+                            <img src="img/email-box/tent.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer>
-        <section>
-            
-        </section>
-    </footer>
 </body>
 </html>
